@@ -3,7 +3,7 @@
 import time
 import goslate
 gs = goslate.Goslate()
-import functions2 as fn
+import functions as fn
 import os
 from tabulate import tabulate
 def main():
