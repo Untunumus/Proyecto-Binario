@@ -142,7 +142,7 @@ def get_library():
 	"""
 
 	library_file = open('library.csv', 'r')
-	library = [line.split(',') for line in library_file if line != '\n']
+	library = [line.split(',') for line in library_file if line != '\n']		
 	library_file.close()
 	return library
 
