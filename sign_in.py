@@ -1,4 +1,4 @@
-import main2 as mn
+import main as mn
 def create_account(dicctionary):
 	try:
 		create_acount = int(input('Do you want to create a new account? Yes(0), No(1)\n'))
